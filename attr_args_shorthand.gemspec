@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["kaspernj"]
   s.date = "2015-08-15"
-  s.description = "Helps handle attributes on objects with very few lines of code"
+  s.description = "TODO: longer description of your gem"
   s.email = "k@spernj.org"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -27,15 +27,17 @@ Gem::Specification.new do |s|
     "README.md",
     "Rakefile",
     "VERSION",
+    "attr_args_shorthand.gemspec",
     "lib/attr_args_shorthand.rb",
     "spec/attr_args_shorthand_spec.rb",
     "spec/spec_helper.rb",
-    "spec/support/test_class.rb"
+    "spec/support/test_class_level.rb",
+    "spec/support/test_object_level.rb"
   ]
   s.homepage = "http://github.com/kaspernj/attr_args_shorthand"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.2.2"
-  s.summary = "Helps handle attributes on objects with very few lines of code"
+  s.summary = "TODO: one-line summary of your gem"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
