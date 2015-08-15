@@ -1,4 +1,4 @@
-class TestClass
+class TestObjectLevel
   def initialize(args)
     AttrArgsShorthand.set(self, args)
   end

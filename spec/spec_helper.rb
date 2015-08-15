@@ -19,7 +19,8 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'rspec'
 require 'attr_args_shorthand'
-require_relative "support/test_class"
+require_relative "support/test_object_level"
+require_relative "support/test_class_level"
 
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.
