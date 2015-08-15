@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "attr_args_shorthand"
   gem.homepage = "http://github.com/kaspernj/attr_args_shorthand"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Helps handle attributes on objects with very few lines of code}
+  gem.description = %Q{Helps handle attributes on objects with very few lines of code}
   gem.email = "k@spernj.org"
   gem.authors = ["kaspernj"]
   # dependencies defined in Gemfile
