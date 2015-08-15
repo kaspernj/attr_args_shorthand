@@ -16,7 +16,7 @@ end
 
 Call getters and setters as your normally would:
 ```ruby
-user.new(name: "Kasper")
+user = User.new(name: "Kasper")
 user.name #=> "Kasper"
 user.name = "Christina"
 user.name #=> "Christina"
